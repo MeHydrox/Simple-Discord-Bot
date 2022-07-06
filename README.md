@@ -22,3 +22,23 @@ To add more command's:
   dont forget to add your bot token:
   
   ```client.login("bot token")```
+  
+add this code in package.json:
+
+``{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.8.1",
+    "express": "^4.18.1"
+  }
+}``
